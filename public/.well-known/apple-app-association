@@ -1,0 +1,11 @@
+{
+    "applinks": {
+      
+      "details": [
+        {
+          "appID": "GJUTY9T5U3.com.olise.datewallet",
+          "paths": ["/*"]
+        }
+      ]
+    }
+  }
