@@ -19,8 +19,8 @@ export async function generateMetadata({
   searchParams,
 }: PageSearchParams): Promise<Metadata> {
   // errors occur if we do not await the searchParams
-  const { exp } = await searchParams;
-  return generateExperienceMetadata(exp);
+  const { experienceId } = await searchParams;
+  return generateExperienceMetadata(experienceId);
 }
 
 export default function ExperiencePage() {
