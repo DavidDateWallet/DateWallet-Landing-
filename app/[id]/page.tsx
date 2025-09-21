@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import Head from "next/head";
+import { redirect } from "next/navigation";
 
 type PageParams = {
   params: { id: string };
@@ -69,6 +69,7 @@ export async function generateMetadata({
 }
 
 export default function ExperiencePage({ params }: PageParams) {
-  // Minimal content; page exists mainly to provide dynamic metadata for previews
-  return null;
+  // Redirect to home page since this is meant for app deep links
+  // The metadata is still generated for social media previews
+  redirect("/");
 }
