@@ -27,5 +27,5 @@ export default function ExperiencePage() {
   // Redirect to home page since this is meant for app deep links
   // The metadata is still generated for social media previews
   // You can access both expId and bookingId here if needed for the redirect logic
-  // redirect("/");
+  redirect("/");
 }
