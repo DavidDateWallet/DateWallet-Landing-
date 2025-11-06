@@ -3,7 +3,7 @@
     "relation": ["delegate_permission/common.handle_all_urls"],
     "target": {
       "namespace": "android_app",
-      "package_name": "com.olise.ChoirSync",
+      "package_name": "com.funwallet.dateWallet",
       "sha256_cert_fingerprints": [
         "8A:73:84:49:FC:86:79:CD:9A:AD:B0:DD:8E:6A:18:96:96:D9:B7:F3"
       ]
